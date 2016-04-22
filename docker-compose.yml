@@ -1,0 +1,8 @@
+version: '2'
+services:
+  mock:
+    build: .
+    volumes:
+      - ./blueprints:/app/blueprints
+    ports:
+      - "3000:3000"
